@@ -1,0 +1,1 @@
+Pretty standard string parsing. Just had to get digits. Nothing too complex, other than some C++ string find function stuff.

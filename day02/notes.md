@@ -1,0 +1,1 @@
+Just had to iterate through the games and keep track of the balls and colours. Initially I thought I'd use the split functions to separate the different times cubes are pulled out in a game, and then the different balls. But that sort of stuff would've been expensive and overkill. A simple iteration of the game string was enough to get the info I needed for the current problems
