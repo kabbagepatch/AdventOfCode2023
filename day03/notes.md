@@ -1,0 +1,3 @@
+I contemplated solving part 1 in a more elegant fashion, so I can possibly prep for part 2, but then I just thought I'd do the quick solution for now, which was just iterate though each line and find adjacent symbols for each number
+
+For part 2, I was able to use some of the logic but then, as I half-expected, I needed the more elegant solution. So I created a struct for each number, with it's value and coordinates, to identify for uniqueness later, when it'll be time to check if exactly two parts are adjacent to a gear. Which is exactly what came next. With the pieces in place, it was easy to find all the numbers adjacent to each gear and find the gear ratio sum

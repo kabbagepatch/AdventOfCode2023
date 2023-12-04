@@ -17,6 +17,10 @@ vector<string> split(string s, string delimiter) {
   return results;
 }
 
+bool isNumber(char c) {
+  return c >= '0' && c <= '9';
+}
+
 int main () {
   ifstream myfile;
   myfile.open ("../testinput");
