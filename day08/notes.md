@@ -1,0 +1,3 @@
+This was a very interseting problem. Part one was simple. I made the network using a map and just traversed the instructions until I reached ZZZ. Part two was tricky. Initially I thought I'd just iterate, similar to part one, but were it so easy.
+
+I quickly realise this is taking way too long. So I had to figure out another way. A little debugging told me that each starting node reaches a node ending in Z in the same number of steps as that node takes to reach itself. Therefore, it is essentially a loop. Therefore, all I really needed to do is find out how many steps it takes for each node to reach its corresponding end node once, and the final answer is the LCM of each. And we were good
