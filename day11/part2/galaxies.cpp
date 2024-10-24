@@ -65,7 +65,7 @@ int main () {
 
   vector<int> emptyRows = findEmptyRows(universe);
   vector<int> emptyCols = findEmptyCols(universe);
-  vector<pair<int, int>> galaxies;
+  vector<pair<int, int> > galaxies;
   for (int i = 0; i < universe.size(); i += 1) {
     for (int j = 0; j < universe[0].size(); j += 1) {
       if (universe[i][j] == '#') {

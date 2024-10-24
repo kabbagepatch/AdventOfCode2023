@@ -46,7 +46,7 @@ int main () {
   }
   myfile.close();
 
-  vector<vector<string>> patterns;
+  vector<vector<string> > patterns;
   vector<string> pattern;
   for (string line : lines) {
     if (line.empty()) {
