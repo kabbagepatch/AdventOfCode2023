@@ -1,1 +1,3 @@
-Fun little 
+Part one was pretty straightforward. For each 'O' rock, look above it until you reach the top edge or a '#' or another 'O', and move it right below that. Doing it row by row, we have a full tilt north
+
+For part two, we need to tilt in all directions. To make it easier on me, and not vary the tilting north logic, I just rotated the entire array by 90 degrees clockwise to tilt in the other directions. After a few cycles, as I kinda assumed, there was a pattern that set in of the loads. For the test input, for example, it was 8 long. Easy to see. For the real input, I actually just looked at the data at first and realised the pattern, and even got the answer. But that felt a little cheating and wrote the logic to actually detect the pattern by running through at least two runs of the full pattern to find a match. After that it was simple maths to find out what the value at the billionth cycle would be
