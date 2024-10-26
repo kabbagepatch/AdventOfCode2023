@@ -21,6 +21,14 @@ bool isNumber(char c) {
   return c >= '0' && c <= '9';
 }
 
+void print(vector<string> stuff) {
+  for (string t : stuff) {
+    cout << t << endl;
+  }
+  cout << endl;
+  cout << endl;
+}
+
 int main () {
   ifstream myfile;
   myfile.open ("../testinput");
@@ -32,4 +40,6 @@ int main () {
     }
   }
   myfile.close();
+
+  print(lines);
 }
